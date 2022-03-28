@@ -1,0 +1,108 @@
+body{
+	margin:0px;
+	padding:0px;
+	font-family:sans-serif;
+	background:url('F:HTML WEBSITE/images/man-designer.jpg')no-repeat;
+	background-size:cover;
+	}
+
+.card{
+	position:absolute;
+	top:50%;
+	left:50%;
+	transform:translate(-60%,-50%);
+	width:400px;
+	height:300px;
+	transform-style:preserve-3d;
+	perspective:600px;
+	transition:0.5s;
+}
+.card .front
+{
+	position:absolute;
+	top:0;
+	left:0;
+	width:400px;
+	height:200px;
+	background:#000;
+	backface-visibility:hidden;
+	transform:rotateX(0deg);
+	transition:0.5s;
+}
+.card:hover .front
+{
+	transform:rotateX(-180deg);
+}
+
+.card .back
+{
+	position:absolute;
+	top:0;
+	left:0;
+	width:523px;
+	height:290px;
+	background:white;
+	backface-visibility:hidden;
+	transform:rotateX(180deg);
+	transition:0.5s;
+}
+.card .back:before
+{
+	content:'';
+	position:absolute;
+	top:0;
+	left:-50%;
+	width:100%;
+	height:100%;
+	background:rgba(255,255,255,0.1);
+}
+
+.card:hover .back
+{
+	transform:rotateX(0deg);
+}
+.card .back .details
+{
+	position:absolute;
+	top:50%;
+	transform:translateY(-50%);
+	left:0;
+	width:100%;
+	text-align:center;
+	padding:20px;
+	box-sizing:border-box;
+}
+.card .back .details h2
+{
+	margin:0;
+	padding:0;
+	font-size:24px;
+	color:#fff;
+}
+.card .back .details h2 span
+{
+	color:#8B008B;
+	font-size:16px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

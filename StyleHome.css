@@ -1,0 +1,72 @@
+.menu{
+	width: 100%;
+	height: 80px;
+	background-color: rgba(0,0,0,0.05);
+	}
+.bgimg{
+	background-image: url('F:HTML WEBSITE/Images/shot.jpg');
+	background-size: 100% 100%;
+	width:100%;
+	height:130vh;
+	}
+.leftmenu{
+	width: 25%;
+	line-height: 80px;
+	float: left;
+	}
+.leftmenu h4{
+	padding-left: 70px;
+	font-weight: bold;
+	color: WHITE;
+	margin-top:6;
+	font-size: 40px;
+	font-family: Edwardian Script ITC;
+	}
+.leftmenu h4:hover{
+	color: #FF1493;
+	}
+.rightmenu{
+	width: 75%;
+	float: right;
+	}
+.rightmenu ul{
+	margin-left: 250px;
+	}
+.rightmenu ul li {
+	display: inline-block;
+	font-size: 16px;
+	font-weight: bold;
+	line-height:70px;
+	margin-left: 30px;
+	font-family:sans-serif;
+	text-decoration:none;
+	}
+.rightmenu ul li a:hover{
+	color:yellow ;
+	}
+.bcolor a{
+	color:WHITE;
+	text-decoration: none;
+	}
+section{
+	height:70vh;
+	margin-left:70px;
+	}
+#aboutus h2{margin-bottom:10px;}
+.imgwrap img{
+	width:100%
+	margin-right:300px;
+	
+}
+.col-sm-7 h2{margin-left:470px;}
+.imgwrap img{width:550px;padding:10px;border-radius:80%;box-shadow:0 0 10px #999999}
+.textcenter{font-family:Copperplate Gothic Light;}
+.textcenter h2{margin-top:30px;}
+.text{margin-left:-0px;}
+.col-sm-7{font-family:Bell MT;font-size:19px;}
+
+
+
+
+
+
